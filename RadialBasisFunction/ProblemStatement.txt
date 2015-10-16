@@ -1,0 +1,11 @@
+Radial Basis Function
+
+a) Treat this assignment as a function approximation problem, NOT as a classification problem. Using your own code and data structures, implement a simulation of an RBF neural network and learning algorithms in a program. Set up a two input, one output network with one hidden layer network topology. Implement your choice of two of the three learning algorithms described in the text, or hybrids of them. Use the same training and testing data from HW#5 (Back prop).
+
+b) Train and test a set of RBF networks with the data. For each network, produce a generalization plot. If there are no epochs in the training process you choose, produce a table showing the generalization results.
+Run numerical experiments with the RBF architecture, varying the network by varying the number of hidden nodes in the hidden layer five (5) times, ranging anywhere from 2 to 50. Explain your stopping criterion, that is, the epoch number where you decide when to stop training if relevant. Discuss the results, and compare to the MLP/BP assignment.
+
+c) If relevant, repeat part (b) with two (2) other training data orderings. Discuss the effects on convergence rates and the number of epochs required to reach a common terminal error. Do not include plots of this.
+
+d) For five interesting cases, do a grid evaluation of trained networks to show the reconstructed (learned) function’s surface.
+Use the data tables from 'TrainingData.txt' & 'TestingData.txt'; consider “c” as the true desired output value (not class label), “i” is the sample index within the group, “x1” and “x2” are the feature vector components for input.

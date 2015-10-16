@@ -1,0 +1,7 @@
+Self Organizing Maps
+
+a) Using your own code and data structures, implement a simulation of an SOM neural network and learning algorithm. Set up a two input and M x M output layer network topology. Implement the SOM learning algorithms described in the text and the lectures. Use the same training sets from Back propagation except DISREGARD THE DESIRED VALUES: combine the four training and testing classes into one large set 1600 in number. This is an unsupervised learning system and has no desired output.
+
+b) Train the network to convergence on the total combined training and testing data, randomly drawing from it with replacement. Define your version of a convergence test. Explore the learning properties of this network by varying all of the parameters at least 5 times each: eta, sigma0, tau, M. Show how convergence changes with different random presentation orders of the training data. Note: there are no epochs in this learning algorithm since the training patterns are draw with replacement from the training list. Define N to be to total number of drawings.
+
+c) Produce plots showing stages of convergence of the combinations of parameters for at least 10 interesting cases of convergence. Plots should include weight maps showing the topology, and weight convergence plots showing the magnitude of the weight changes verses presentation number.
